@@ -1,0 +1,35 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(56, 43, 68);
+display: flex;
+min-width: 100vh;
+}
+.menu {
+    width: 220px; ;
+    background: #524646;
+    padding: 20px;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.menu ul{
+    list-style: none;
+}
+.menu li{
+    margin: 15px 0;
+}
+.menu a {
+    color: #463c3c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.menu a:hover{
+    color: aliceblue;
+}
+.contenido {
+    margin-left: 220px;
+    padding: 30px;
+    flex: 1
+}
