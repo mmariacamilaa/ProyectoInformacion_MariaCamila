@@ -2,7 +2,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #aa7ca6;
+    background-color: #fce4ec;
     color: #4a4a4a;
     line-height: 1.6;
     animation: fadeIn 1s ease-in-out;
@@ -163,4 +163,13 @@ a:hover {
 .gallery-item img:hover {
     transform: rotate(2deg) scale(1.05);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.img01 {
+    display: block;
+    max-width: 300px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
